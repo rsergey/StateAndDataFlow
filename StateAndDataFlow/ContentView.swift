@@ -10,6 +10,8 @@ import SwiftUI
 struct ContentView: View {
     @EnvironmentObject var user: UserManager
     @StateObject private var timer = TimeCounter()
+//    @AppStorage("userName") private var userName = ""
+//    @AppStorage("isRegister") private var isRegister = false
     
     var body: some View {
         VStack {

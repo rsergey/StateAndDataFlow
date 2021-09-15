@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct LogoutButtonView: View {
+    @EnvironmentObject var user: UserManager
+//    @AppStorage("userName") private var userName = ""
+//    @AppStorage("isRegister") private var isRegister = false
+    
     var body: some View {
-        Button(action: {}) {
+        Button(action: {DataManager.shared.deleteUser(user: user)}) {
             Text("LogOut")
                 .font(.title)
                 .fontWeight(.bold)

@@ -17,6 +17,7 @@
 		A57E252E26F0E17A001E6610 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E252D26F0E17A001E6610 /* RegisterView.swift */; };
 		A57E253126F0E44E001E6610 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E253026F0E44E001E6610 /* UserManager.swift */; };
 		A57E253426F0E8A4001E6610 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E253326F0E8A4001E6610 /* StarterView.swift */; };
+		A5BC295C26F27D0000A45216 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BC295B26F27D0000A45216 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A57E252D26F0E17A001E6610 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		A57E253026F0E44E001E6610 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		A57E253326F0E8A4001E6610 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		A5BC295B26F27D0000A45216 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				A57E251A26F0BE3E001E6610 /* StateAndDataFlowApp.swift */,
+				A57E253326F0E8A4001E6610 /* StarterView.swift */,
+				A57E252D26F0E17A001E6610 /* RegisterView.swift */,
 				A57E251C26F0BE3E001E6610 /* ContentView.swift */,
+				A5BC295B26F27D0000A45216 /* DataManager.swift */,
 				A53AFE8626F1E4A700912892 /* LogoutButtonView.swift */,
 				A53AFE8326F1DF8200912892 /* TimerButtonView.swift */,
-				A57E252D26F0E17A001E6610 /* RegisterView.swift */,
-				A57E253326F0E8A4001E6610 /* StarterView.swift */,
 				A57E253026F0E44E001E6610 /* UserManager.swift */,
 				A57E252A26F0CDB8001E6610 /* TimeCounter.swift */,
 				A57E251E26F0BE3F001E6610 /* Assets.xcassets */,
@@ -163,6 +166,7 @@
 				A57E251D26F0BE3E001E6610 /* ContentView.swift in Sources */,
 				A53AFE8426F1DF8200912892 /* TimerButtonView.swift in Sources */,
 				A57E253126F0E44E001E6610 /* UserManager.swift in Sources */,
+				A5BC295C26F27D0000A45216 /* DataManager.swift in Sources */,
 				A57E251B26F0BE3E001E6610 /* StateAndDataFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

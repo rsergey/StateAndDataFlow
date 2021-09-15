@@ -10,6 +10,8 @@ import SwiftUI
 struct RegisterView: View {
     @EnvironmentObject var user: UserManager
     @State private var name = ""
+//    @AppStorage("userName") private var userName = ""
+//    @AppStorage("isRegister") private var isRegister = false
     private let minCharacters = 3
     
     var body: some View {
@@ -35,6 +37,7 @@ struct RegisterView: View {
         if !name.isEmpty {
             user.name = name
             user.isRegister.toggle()
+            DataManager.shared.saveUser(user: user)
         }
     }
 }
