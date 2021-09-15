@@ -14,8 +14,8 @@ struct LogoutButtonView: View {
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
+                .frame(width: 200, height: 60)
         }
-        .frame(width: 200, height: 60)
         .background(Color.blue)
         .cornerRadius(20)
         .overlay(
